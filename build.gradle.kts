@@ -6,6 +6,10 @@ plugins {
     kotlin("jvm") version "1.9.21"
 }
 
+dependencies{
+    implementation("com.microsoft.playwright:playwright:1.40.0")
+}
+
 kotlin {
     sourceSets {
         main {

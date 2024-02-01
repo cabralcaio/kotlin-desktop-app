@@ -23,6 +23,7 @@ kotlin {
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
+            implementation("com.microsoft.playwright:playwright:1.40.0")
         }
     }
 }
